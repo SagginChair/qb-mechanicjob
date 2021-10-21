@@ -38,36 +38,36 @@ Config.RepairCost = {
 Config.RepairCostAmount = {
     ["engine"] = {
         item = "metalscrap",
-        costs = 2,
+        costs = 15,
     },
     ["body"] = {
         item = "plastic",
-        costs = 3,
+        costs = 10,
     },
     ["radiator"] = {
         item = "steel",
-        costs = 5,
+        costs = 20,
     },
     ["axle"] = {
         item = "aluminum",
-        costs = 7,
+        costs = 20,
     },
     ["brakes"] = {
         item = "copper",
-        costs = 5,
+        costs = 15,
     },
     ["clutch"] = {
         item = "copper",
-        costs = 6,
+        costs = 15,
     },
     ["fuel"] = {
         item = "plastic",
-        costs = 5,
+        costs = 10,
     },
 }
 
 Config.Businesses = {
-    "Auto Repair",
+    "Hayes Auto Repair",
 }
 
 Config.Plates = {
@@ -78,7 +78,7 @@ Config.Plates = {
 }
 
 Config.Locations = {
-    ["exit"] = vector3(-339.04, -135.53, 39),
+    ["exit"] = vector3(-1420.81, -448.98, 35.91),
     ["stash"] = vector3(-1418.73, -454.59, 35.91),
     ["duty"] = vector3(-1425.12, -457.01, 35.91), 
     ["vehicle"] = vector4(-1399.81, -456.3, 34.48, 300.73), 

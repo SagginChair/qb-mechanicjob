@@ -92,7 +92,7 @@ Citizen.CreateThread(function()
     SetBlipAlpha(Blip, 0.7)
 
     BeginTextCommandSetBlipName("STRING")
-    AddTextComponentSubstringPlayerName("Autocare Mechanic")
+    AddTextComponentSubstringPlayerName("Hayes Autocare")
     EndTextCommandSetBlipName(Blip)
 end)
 
@@ -117,8 +117,8 @@ Citizen.CreateThread(function()
                             if IsControlJustReleased(0, 38) then
                                 TriggerEvent("inventory:client:SetCurrentStash", "mechanicstash")
                                 TriggerServerEvent("inventory:server:OpenInventory", "stash", "mechanicstash", {
-                                    maxweight = 4000000,
-                                    slots = 500,
+                                    maxweight = 2000000,
+                                    slots = 50,
                                 })
                             end
                         end
