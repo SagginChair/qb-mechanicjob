@@ -92,7 +92,7 @@ Citizen.CreateThread(function()
     SetBlipAlpha(Blip, 0.7)
 
     BeginTextCommandSetBlipName("STRING")
-    AddTextComponentSubstringPlayerName("Hayes Autocare")
+    AddTextComponentSubstringPlayerName("Tuner Shop AutoCare")
     EndTextCommandSetBlipName(Blip)
 end)
 
